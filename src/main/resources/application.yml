@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./target/test
+    username: root
+    password: root
+    driver-class-name: org.h2.Driver
+fetch:
+  type: DB

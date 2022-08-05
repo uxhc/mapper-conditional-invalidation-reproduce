@@ -16,6 +16,12 @@ fetch:
 
 - 运行 `BootStrap` 启动类, 启动会报错，日志如下:
 ```
+...
+2022-08-05 15:06:42.510  WARN 51026 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.example.mapper]' package. Please check your configuration.
+...
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-05 15:06:43.085 ERROR 51026 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
 ***************************
 APPLICATION FAILED TO START
 ***************************
